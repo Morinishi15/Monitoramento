@@ -7,6 +7,6 @@ monitoramento seja mais direcionado e tenha uma maior eficácia.
 
 ### :handshake: Colaboradores:
 
-|![Morinishi](https://github.com/Morinishi15.png) |
+|![Morinishi](https://github.com/Morinishi15.png)|
 | - | - | - | - | - |
-| [Matheus Morinishi](https://github.com/Morinishi15)|
+|[Matheus Morinishi](https://github.com/Morinishi15)|
