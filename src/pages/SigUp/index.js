@@ -10,15 +10,23 @@ export default function SigIn() {
  return (
    <View style={styles.container}>
       <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
-        <Text style={styles.message}>Bem vindo(a)</Text>
+        <Text style={styles.message}>Crie sua conta</Text>
       </Animatable.View>
 
+
+        
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
+      <Text style={styles.tittle}>
+            Nome
+        </Text>
+        <TextInput style={styles.input}
+                placeholder="Digite seu nome"
+        />
           <Text style={styles.tittle}>Email</Text>
           <TextInput style={styles.input}
                placeholder="Digite seu email"
           />
-          
+      
           <Text style={styles.tittle}>Senha</Text>
           <TextInput style={styles.input}
                placeholder = "Digite sua senha"
@@ -28,14 +36,10 @@ export default function SigIn() {
           <TouchableOpacity style={styles.button}
             onPress={() => navigation.navigate('Home')}
             >
-            <Text style={styles.buttonText}>Entrar</Text>
+            <Text style={styles.buttonText}>Criar conta</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.buttonRegister}
-           onPress={() => navigation.navigate('SigUp')}
-          >
-            <Text style={styles.registerText}>Não possui uma conta? Cadastre-se</Text>
-          </TouchableOpacity>
+        
       </Animatable.View>
    </View>
   );
