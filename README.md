@@ -8,5 +8,5 @@ monitoramento seja mais direcionado e tenha uma maior eficácia.
 ### :handshake: Colaboradores:
 
 |![Morinishi](https://github.com/Morinishi15.png)|![Rody347](https://github.com/Rody347.png)|
-| - || - |
+| - |
 |[Matheus Morinishi](https://github.com/Morinishi15)|[Rodrigo](https://github.com/Rody347)|
