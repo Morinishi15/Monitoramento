@@ -4,11 +4,14 @@ import Welcome from '../pages/Welcome'
 import SigIn from '../pages/SigIn'
 import Home from '../pages/Home'
 import SigUp from '../pages/SigUp'
+import Form from '../pages/Form'
+
 
 const Stack = createNativeStackNavigator();
 
 export default function Routes() {
     return (
+        
         <Stack.Navigator>
         <Stack.Screen 
         name="Welcome" component={Welcome}
@@ -29,7 +32,15 @@ export default function Routes() {
         name="SigUp" component={SigUp}
         options={{headerShown: false}}>
         </Stack.Screen>
+      
+        <Stack.Screen 
+        name="Form" component={Form}
+        options={{headerShown: false}}>
+        </Stack.Screen>
 
         </Stack.Navigator>
     );
-    }
+}
+
+
+    
